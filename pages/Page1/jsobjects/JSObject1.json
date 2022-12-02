@@ -1,0 +1,16 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tlogout : () => {\n\t\tObject.keys(appsmith.store)\n\t\t.map(key => storeValue(key, undefined));\n\t\tnavigateTo('Electric Boogaloo')\n\t}\n}",
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Page1_JSObject1",
+  "deleted": false,
+  "gitSyncId": "637d099cac05262be78d7170_638a5d48fea3e8696fade18b"
+}
