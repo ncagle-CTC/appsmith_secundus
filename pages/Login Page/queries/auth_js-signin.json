@@ -19,7 +19,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n  return signin.run().then(data => {\n    delete data.user;\n    Object.keys(data).forEach(i => {\n      storeValue(i, data[i]);\n    });\n  }).then(() => navigateTo('Customer Update Form'));\n}",
+      "body": "() => {\n  return signin.run().then(data => {\n    delete data.user;\n    Object.keys(data).forEach(i => {\n      storeValue(i, data[i]);\n    });\n  }).then(() => navigateTo('Electric Boogaloo'));\n}",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": true
@@ -34,7 +34,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() => {\n  return signin.run().then(data => {\n    delete data.user;\n    Object.keys(data).forEach(i => {\n      storeValue(i, data[i]);\n    });\n  }).then(() => navigateTo('Customer Update Form'));\n}"
+      "() => {\n  return signin.run().then(data => {\n    delete data.user;\n    Object.keys(data).forEach(i => {\n      storeValue(i, data[i]);\n    });\n  }).then(() => navigateTo('Electric Boogaloo'));\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
