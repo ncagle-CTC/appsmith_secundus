@@ -1,0 +1,16 @@
+{
+  "unpublishedCollection": {
+    "name": "logout",
+    "pageId": "Electric Boogaloo",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tlogout : () => {\n\t\tObject.keys(appsmith.store)\n\t\t.map(key => storeValue(key, undefined));\n\t\tnavigateTo('Login Page')\n\t}\n}",
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Electric Boogaloo_logout",
+  "deleted": false,
+  "gitSyncId": "637d099cac05262be78d7170_638a30a59580547651ebe01b"
+}
