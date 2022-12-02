@@ -1,11 +1,11 @@
 {
   "pages": [
     {
-      "id": "Electric Boogaloo",
+      "id": "Login Page",
       "isDefault": true
     },
     {
-      "id": "Login Page",
+      "id": "Electric Boogaloo",
       "isDefault": false
     }
   ],
